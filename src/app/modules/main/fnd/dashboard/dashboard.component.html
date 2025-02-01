@@ -1,0 +1,56 @@
+<div class="one">
+    <h1>{{GRIDTITLE | translate}}</h1>
+  </div>
+
+  <div class="container">
+    <div class="card m-5 p-3">
+        <div class="clr-row">
+            <div class="clr-col-md-12 clr-col-sm-12" style="margin-top: 8px;">
+                <input id="data" type="text" placeholder="Enter search Criteria" class="clr-input" name="searchcusttext" [(ngModel)]="searchcusttext">
+             </div>
+    
+            </div>
+        <div class="card-body">
+            <table datatable [dtOptions]="dtOptions" class="table table-bordered table-striped table-hover">
+                <thead>
+                <tr>
+                    <ng-container *ngFor="let item of GRIDHeader ">
+                    
+                    <th>{{item}}</th>
+                    <!-- <th>ID</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                    <th>Address</th> -->
+                </ng-container>
+                </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngIf="translate.currentLang === 'ar' ">
+                        <tr *ngFor="let user of GRIDDATA | filter:searchcusttext; ">
+                            <td>{{ user.address.street | translate}}, {{ user.address.city | translate}}</td>
+                            <td>{{ user.phone | translate}}</td>
+                            <td>{{ user.username | translate}}</td>
+                            <td>{{ user.name | translate}}</td>
+                            <td>{{ user.id | translate}}</td>
+                            <!-- <td>{{ user.email | translate}}</td> -->
+                        </tr>
+                    </ng-container>
+                     <ng-container *ngIf="translate.currentLang === 'en' ">
+                       
+                <tr *ngFor="let user of GRIDDATA | filter:searchcusttext; ">
+                    <td>{{ user.id | translate}}</td>
+                    <td>{{ user.name | translate}}</td>
+                    <td>{{ user.username | translate}}</td>
+                    <!-- <td>{{ user.email | translate}}</td> -->
+                    <td>{{ user.phone | translate}}</td>
+                    <td>{{ user.address.street | translate}}, {{ user.address.city | translate}}</td>
+                </tr>
+            </ng-container>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

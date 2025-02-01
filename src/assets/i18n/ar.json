@@ -1,0 +1,928 @@
+{
+    "HOME": {
+      "TITLE": "مثال لaddress أنجولار !",
+      "SELECT": "أختار اللغه "
+    },
+    "GridTitle":" الترجمة الزاوية",
+    "APPName":"التطبيق الزاوي",
+
+    "GRIDHeader":["عنوان","رقم التليفون","بريد إلكتروني","اسم","بطاقة تعريف"],
+
+    "GRIDDATA":[
+        {
+            "id": 1,
+            "name": "ليان جراهام",
+            "username": "بريت",
+            "address": {
+                "street": "نور كولاس",
+                "suite": "شقة 556",
+                "city": "جوينبورو",
+                "zipcode": "92998-3874",
+                "geo": {
+                    "lat": "-37.3159",
+                    "lng": "81.1496"
+                }
+            },
+            "phone": "1-770-736-8031 x56442",
+            "website": "hildegard.org",
+            "company": {
+                "name": "روماغيرا-كرونا",
+                "catchPhrase": "شبكة عصبية متعددة الطبقات لخادم العميل",
+                "bs": "تسخير الأسواق emailة في الوقت الفعلي"
+            }
+        },
+        {
+            "id": 2,
+            "name": "إرفين هاول",
+            "username": "أنتونيت",
+            "address": {
+                "street": "فيكتور بلينز",
+                "suite": "جناح 879",
+                "city": "ويسوكيبورج",
+                "zipcode": "7771-90566",
+                "geo": {
+                    "lat": "-43.9509",
+                    "lng": "-34.4618"
+                }
+            },
+            "هاتف": "010-692-6593 x09125",
+            "website": "anastasia.net",
+            "company": {
+                "name": "ديكو-كريست",
+                "catchPhrase": "الطوارئ التعليمية الاستباقية",
+                "bs": "تضافر سلاسل التوريد القابلة للتطوير"
+            }
+        },
+        {
+            "id": 3,
+            "name": "كليمنتين باوش",
+            "username": "سامانثا",
+            "address": {
+                "street": "امتداد دوغلاس",
+                "suite": "جناح 847",
+                "city": "ماكنزيهافن",
+                "zipcode": "59590-4157",
+                "geo": {
+                    "lat": "-68.6102",
+                    "lng": "-47.0653"
+                }
+            },
+            "phone": "4447-123-463-1",
+            "website": "ramiro.info",
+            "company": {
+                "name": "روماغيرا-جاكوبسون",
+                "catchPhrase": "واجهة متشعبة وجهًا لوجه",
+                "bs": "التمكين email للتطبيقات الإستراتيجية"
+            }
+        },
+        {
+            "id": 4,
+            "name": "باتريشيا ليبساك",
+            "username": "كاريان",
+            "address": {
+                "street": "هوجر مول",
+                "suite": "شقة 692",
+                "city": "جنوب إلفيس",
+                "zipcode": "53919-4257",
+                "geo": {
+                    "lat": "29.4572",
+                    "lng": "-164.2990"
+                }
+            },
+            "phone": "9623-170-493x156",
+            "website": "kale.biz",
+            "company": {
+                "name": "روبل كوركري",
+                "catchPhrase": "إنتاجية عدم التسامح مطلقًا مع المستويات المتعددة",
+                "bs": "انتقال خدمات website المتطورة"
+            }
+        },
+        {
+            "id": 5,
+            "name": "تشيلسي ديتريش",
+            "username": "كامرين",
+            "address": {
+                "street": "سكيلز يمشي",
+                "suite": "جناح 351",
+                "city": "روسكو فيو",
+                "zipcode": "33263",
+                "geo": {
+                    "lat": "-31.8129",
+                    "lng": "62.5342"
+                }
+            },
+            "phone": "(254)954-1289",
+            "website": "demarco.info",
+            "company": {
+                "name": "company كيبلر ذات المسؤولية المحدودة",
+                "catchPhrase": "حل متسامح مع الأخطاء يتمحور حول username",
+                "bs": "إحداث ثورة في الأنظمة الشاملة"
+            }
+        },
+        {
+            "id": 6,
+            "name": "السيدة دينيس شوليست",
+            "username": "ليوبولدو كوركيري",
+            "address": {
+                "street": "معبر نوربرتو",
+                "suite": "شقة 950",
+                "city": "جنوب كريستي",
+                "zipcode": "23505-1337",
+                "geo": {
+                    "lat": "-71.4197",
+                    "lng": "71.7478"
+                }
+            },
+            "phone": "1-477-935-8478 x6430",
+            "website": "ola.org",
+            "company": {
+                "name": "كونسيدين-لوكمان",
+                "catchPhrase": "واجهة الالسفلي المتزامنة",
+                "bs": "التمكين email للتطبيقات المبتكرة"
+            }
+        },
+        {
+            "id": 7,
+            "name": "كورتيس فايسنات",
+            "username": "إلوين.سكيلز",
+            "address": {
+                "street": "طريق ريكس",
+                "suite": "جناح 280",
+                "city": "هاوماوث",
+                "zipcode": "58804-1099",
+                "geo": {
+                    "lat": "24.8918",
+                    "lng": "21.8984"
+                }
+            },
+            "phone": "210.067.6132",
+            "website": "elvis.io",
+            "company": {
+                "name": "مجموعة جونز",
+                "catchPhrase": "فريق عمل الوسائط المتعددة القابل للتكوين",
+                "bs": "إنشاء تجار التجزئة emailة للمؤسسة"
+            }
+        },
+            {
+                "id": 8,
+                "name": "نيكولاس رونولفسدوتير الخامس",
+                "username": "ماكسيم_نيناو",
+                "address": {
+                    "street": "قمة إلسورث",
+                    "suite": "جناح 729",
+                    "city": "عليافيو",
+                    "zipcode": "45169",
+                    "geo": {
+                        "lat": "-14.3990",
+                        "lng": "-120.7677"
+                    }
+                },
+                "phone": "586.493.6943x140",
+                "website": "jacynthe.com",
+                "company": {
+                    "name": "مجموعة أبيرناثي",
+                    "catchPhrase": "تم تنفيذ المفهوم الثانوي",
+                    "bs": "التمكين email لمتاجر التجزئة emailة القابلة للتوسيع"
+                }
+            },
+            {
+                "id": 9,
+                "name": "جلينا رايشرت",
+                "username": "دلفين",
+                "address": {
+                    "street": "داينا بارك",
+                    "suite": "جناح 449",
+                    "city": "بارثولومبيري",
+                    "zipcode": "76495-3109",
+                    "geo": {
+                        "lat": "24.6463",
+                        "lng": "-168.8889"
+                    }
+                },
+                "phone": "(775)976-6794 x41206",
+                "website": "conrad.com",
+                "company": {
+                    "name": "يوست وأولاده",
+                    "catchPhrase": "مشروع قائم على السياق قابل للتحويل",
+                    "bs": "تقنيات الوقت الحقيقي المجمعة"
+                }
+            },
+            {
+                "id": 10,
+                "name": "كليمنتينا دوبوك",
+                "username": "موريا ستانتون",
+                "address": {
+                    "street": "كاتي تيرنبايك",
+                    "suite": "جناح 198",
+                    "city": "ليبساكبيري",
+                    "zipcode": "31428-2261",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "phone": "024-648-3804",
+                "website": "ambrose.net",
+                "company": {
+                    "name": "Hoeger LLC",
+                    "catchPhrase": "فريق عمل التمكين المركزي",
+                    "bs": "النماذج الشاملة المستهدفة"
+                }
+            }
+   ],
+
+   "menus":[
+    {
+        "usrGrp": {
+            "usrGrp": 1,
+            "groupName": "sysadmin",
+            "groupDesc": "add",
+            "createby": null,
+            "createdate": null,
+            "updatedate": 1677630250000,
+            "updateby": null,
+            "status": "E",
+            "groupLevel": 30,
+            "createDateFormated": null,
+            "updateDateFormated": null
+        },
+        "menuItemId": {
+            "createdAt": 1685954661000,
+            "updatedAt": 1685954661000,
+            "menuItemId": 1552,
+            "itemSeq": 2000,
+            "menuItemDesc": "لوحة القيادة",
+            "status": "Enable",
+            "menuId": 0,
+            "moduleName": "dashboard",
+            "main_menu_action_name": "dash",
+            "main_menu_icon_name": "speedometer",
+            "subMenus": []
+        },
+        "mexport": "true",
+        "menuId": 0,
+        "createby": null,
+        "createdAt": 1685954759000,
+        "updateby": null,
+        "updatedAt": 1685954759000,
+        "isdisable": "true",
+        "itemSeq": 2000,
+        "menuItemDesc": "لوحة القيادة",
+        "status": "Enable",
+        "moduleName": "dashboard",
+        "main_menu_action_name": "dash",
+        "main_menu_icon_name": "speedometer",
+        "subMenus": [
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1685954808000,
+                    "updatedAt": 1686954200000,
+                    "menuItemId": 1553,
+                    "itemSeq": 1000,
+                    "menuItemDesc": "لوحة القيادة1",
+                    "status": "Enable",
+                    "menuId": 1552,
+                    "moduleName": "dashboard",
+                    "main_menu_action_name": "DashboardTesting",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1552,
+                "createby": null,
+                "createdAt": 1685954825000,
+                "updateby": null,
+                "updatedAt": 1685954825000,
+                "isdisable": "true",
+                "itemSeq": 1000,
+                "menuItemDesc": "لوحة القيادة1",
+                "status": "Enable",
+                "moduleName": "dashboard",
+                "main_menu_action_name": "DashboardTesting",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            },
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1686461112000,
+                    "updatedAt": 1686461112000,
+                    "menuItemId": 1554,
+                    "itemSeq": 2000,
+                    "menuItemDesc": "داس2",
+                    "status": "Enable",
+                    "menuId": 1552,
+                    "moduleName": "2000",
+                    "main_menu_action_name": "Dashtest",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1552,
+                "createby": null,
+                "createdAt": 1686461168000,
+                "updateby": null,
+                "updatedAt": 1686461168000,
+                "isdisable": "true",
+                "itemSeq": 2000,
+                "menuItemDesc": "داس2",
+                "status": "Enable",
+                "moduleName": "2000",
+                "main_menu_action_name": "Dashtest",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            }
+        ],
+        "grpid": null,
+        "gmenuid": null,
+        "mdelete": "true",
+        "medit": "true",
+        "mquery": "true",
+        "mcreate": "true",
+        "mvisible": "true"
+    },
+    {
+        "usrGrp": {
+            "usrGrp": 1,
+            "groupName": "sysadmin",
+            "groupDesc": "add",
+            "createby": null,
+            "createdate": null,
+            "updatedate": 1677630250000,
+            "updateby": null,
+            "status": "E",
+            "groupLevel": 30,
+            "createDateFormated": null,
+            "updateDateFormated": null
+        },
+        "menuItemId": {
+            "createdAt": 1674622550000,
+            "updatedAt": 1674622550000,
+            "menuItemId": 1116,
+            "itemSeq": 3000,
+            "menuItemDesc": "حماية",
+            "status": "Enable",
+            "menuId": 0,
+            "moduleName": "sec3000",
+            "main_menu_action_name": "security",
+            "main_menu_icon_name": "lock",
+            "subMenus": []
+        },
+        "mexport": "true",
+        "menuId": 0,
+        "createby": null,
+        "createdAt": 1675512123000,
+        "updateby": null,
+        "updatedAt": 1675512123000,
+        "isdisable": "true",
+        "itemSeq": 3000,
+        "menuItemDesc": "حماية",
+        "status": "Enable",
+        "moduleName": "sec3000",
+        "main_menu_action_name": "security",
+        "main_menu_icon_name": "lock",
+        "subMenus": [
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1674623522000,
+                    "updatedAt": 1675505065000,
+                    "menuItemId": 1117,
+                    "itemSeq": 3010,
+                    "menuItemDesc": "صيانة المستخدم",
+                    "status": "Enable",
+                    "menuId": 1116,
+                    "moduleName": "U1000",
+                    "main_menu_action_name": "usermaintance",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1116,
+                "createby": null,
+                "createdAt": 1675512123000,
+                "updateby": null,
+                "updatedAt": 1675512123000,
+                "isdisable": "true",
+                "itemSeq": 3010,
+                "menuItemDesc": "صيانة المستخدم",
+                "status": "Enable",
+                "moduleName": "U1000",
+                "main_menu_action_name": "usermaintance",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            },
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1674625347000,
+                    "updatedAt": 1675505076000,
+                    "menuItemId": 1118,
+                    "itemSeq": 3020,
+                    "menuItemDesc": "صيانة مجموعة المستخدمين",
+                    "status": "Enable",
+                    "menuId": 1116,
+                    "moduleName": "U2000",
+                    "main_menu_action_name": "usergrpmaintance",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1116,
+                "createby": null,
+                "createdAt": 1675512124000,
+                "updateby": null,
+                "updatedAt": 1675512124000,
+                "isdisable": "true",
+                "itemSeq": 3020,
+                "menuItemDesc": "صيانة مجموعة المستخدمين",
+                "status": "Enable",
+                "moduleName": "U2000",
+                "main_menu_action_name": "usergrpmaintance",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            },
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1675489557000,
+                    "updatedAt": 1675505085000,
+                    "menuItemId": 1523,
+                    "itemSeq": 3030,
+                    "menuItemDesc": "صيانة القائمة",
+                    "status": "Enable",
+                    "menuId": 1116,
+                    "moduleName": "M3000",
+                    "main_menu_action_name": "menumaintance",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1116,
+                "createby": null,
+                "createdAt": 1675512124000,
+                "updateby": null,
+                "updatedAt": 1675512124000,
+                "isdisable": "true",
+                "itemSeq": 3030,
+                "menuItemDesc": "صيانة القائمة",
+                "status": "Enable",
+                "moduleName": "M3000",
+                "main_menu_action_name": "menumaintance",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            },
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1675489612000,
+                    "updatedAt": 1675505094000,
+                    "menuItemId": 1524,
+                    "itemSeq": 3040,
+                    "menuItemDesc": "التحكم في الوصول إلى القائمة",
+                    "status": "Enable",
+                    "menuId": 1116,
+                    "moduleName": "MA4000",
+                    "main_menu_action_name": "menuaccess",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1116,
+                "createby": null,
+                "createdAt": 1675512124000,
+                "updateby": null,
+                "updatedAt": 1675512124000,
+                "isdisable": "true",
+                "itemSeq": 3040,
+                "menuItemDesc": "التحكم في الوصول إلى القائمة",
+                "status": "Enable",
+                "moduleName": "MA4000",
+                "main_menu_action_name": "menuaccess",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            },
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1675489651000,
+                    "updatedAt": 1675505106000,
+                    "menuItemId": 1525,
+                    "itemSeq": 3050,
+                    "menuItemDesc": "معلمات النظام",
+                    "status": "Enable",
+                    "menuId": 1116,
+                    "moduleName": "SP5000",
+                    "main_menu_action_name": "systemparameters",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1116,
+                "createby": null,
+                "createdAt": 1675512124000,
+                "updateby": null,
+                "updatedAt": 1675512124000,
+                "isdisable": "true",
+                "itemSeq": 3050,
+                "menuItemDesc": "معلمات النظام",
+                "status": "Enable",
+                "moduleName": "SP5000",
+                "main_menu_action_name": "systemparameters",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            },
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1675489684000,
+                    "updatedAt": 1675505114000,
+                    "menuItemId": 1526,
+                    "itemSeq": 3060,
+                    "menuItemDesc": "نوع الوصول",
+                    "status": "Enable",
+                    "menuId": 1116,
+                    "moduleName": "A6000",
+                    "main_menu_action_name": "accesstype",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1116,
+                "createby": null,
+                "createdAt": 1685954734000,
+                "updateby": null,
+                "updatedAt": 1685954734000,
+                "isdisable": "true",
+                "itemSeq": 3060,
+                "menuItemDesc": "نوع الوصول",
+                "status": "Enable",
+                "moduleName": "A6000",
+                "main_menu_action_name": "accesstype",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            }
+        ],
+        "grpid": null,
+        "gmenuid": null,
+        "mdelete": "true",
+        "medit": "true",
+        "mquery": "true",
+        "mcreate": "true",
+        "mvisible": "true"
+    },
+    {
+        "usrGrp": {
+            "usrGrp": 1,
+            "groupName": "sysadmin",
+            "groupDesc": "add",
+            "createby": null,
+            "createdate": null,
+            "updatedate": 1677630250000,
+            "updateby": null,
+            "status": "E",
+            "groupLevel": 30,
+            "createDateFormated": null,
+            "updateDateFormated": null
+        },
+        "menuItemId": {
+            "createdAt": 1697002419000,
+            "updatedAt": 1697002419000,
+            "menuItemId": 1556,
+            "itemSeq": 4000,
+            "menuItemDesc": "المشرف الفائق",
+            "status": "Enable",
+            "menuId": 0,
+            "moduleName": "Super Admin",
+            "main_menu_action_name": "superadmin",
+            "main_menu_icon_name": "person-gear",
+            "subMenus": []
+        },
+        "mexport": "true",
+        "menuId": 0,
+        "createby": null,
+        "createdAt": 1697002488000,
+        "updateby": null,
+        "updatedAt": 1697002488000,
+        "isdisable": "true",
+        "itemSeq": 4000,
+        "menuItemDesc": "المشرف الفائق",
+        "status": "Enable",
+        "moduleName": "Super Admin",
+        "main_menu_action_name": "superadmin",
+        "main_menu_icon_name": "person-gear",
+        "subMenus": [
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1697002457000,
+                    "updatedAt": 1697002457000,
+                    "menuItemId": 1557,
+                    "itemSeq": 4100,
+                    "menuItemDesc": "ملحق الكود",
+                    "status": "Enable",
+                    "menuId": 1556,
+                    "moduleName": "CodeExtension",
+                    "main_menu_action_name": "extension",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1556,
+                "createby": null,
+                "createdAt": 1697002488000,
+                "updateby": null,
+                "updatedAt": 1697002488000,
+                "isdisable": "true",
+                "itemSeq": 4100,
+                "menuItemDesc": "ملحق الكود",
+                "status": "Enable",
+                "moduleName": "CodeExtension",
+                "main_menu_action_name": "extension",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            }
+        ],
+        "grpid": null,
+        "gmenuid": null,
+        "mdelete": "true",
+        "medit": "true",
+        "mquery": "true",
+        "mcreate": "true",
+        "mvisible": "true"
+    },
+    {
+        "usrGrp": {
+            "usrGrp": 1,
+            "groupName": "sysadmin",
+            "groupDesc": "add",
+            "createby": null,
+            "createdate": null,
+            "updatedate": 1677630250000,
+            "updateby": null,
+            "status": "E",
+            "groupLevel": 30,
+            "createDateFormated": null,
+            "updateDateFormated": null
+        },
+        "menuItemId": {
+            "createdAt": 1698231686000,
+            "updatedAt": 1698231686000,
+            "menuItemId": 1558,
+            "itemSeq": 5000,
+            "menuItemDesc": "قبو",
+            "status": "Enable",
+            "menuId": 0,
+            "moduleName": "Vault",
+            "main_menu_action_name": "test",
+            "main_menu_icon_name": "tools",
+            "subMenus": []
+        },
+        "mexport": "true",
+        "menuId": 0,
+        "createby": null,
+        "createdAt": 1698231788000,
+        "updateby": null,
+        "updatedAt": 1698231788000,
+        "isdisable": "true",
+        "itemSeq": 5000,
+        "menuItemDesc": "قبو",
+        "status": "Enable",
+        "moduleName": "Vault",
+        "main_menu_action_name": "test",
+        "main_menu_icon_name": "tools",
+        "subMenus": [
+            {
+                "usrGrp": {
+                    "usrGrp": 1,
+                    "groupName": "sysadmin",
+                    "groupDesc": "add",
+                    "createby": null,
+                    "createdate": null,
+                    "updatedate": 1677630250000,
+                    "updateby": null,
+                    "status": "E",
+                    "groupLevel": 30,
+                    "createDateFormated": null,
+                    "updateDateFormated": null
+                },
+                "menuItemId": {
+                    "createdAt": 1698231738000,
+                    "updatedAt": 1698231738000,
+                    "menuItemId": 1559,
+                    "itemSeq": 5001,
+                    "menuItemDesc": "نقطة دخول",
+                    "status": "Enable",
+                    "menuId": 1558,
+                    "moduleName": "Access Point",
+                    "main_menu_action_name": "Access_Point",
+                    "main_menu_icon_name": null,
+                    "subMenus": []
+                },
+                "mexport": "true",
+                "menuId": 1558,
+                "createby": null,
+                "createdAt": 1698231789000,
+                "updateby": null,
+                "updatedAt": 1698231789000,
+                "isdisable": "true",
+                "itemSeq": 5001,
+                "menuItemDesc": "نقطة دخول",
+                "status": "Enable",
+                "moduleName": "Access Point",
+                "main_menu_action_name": "Access_Point",
+                "main_menu_icon_name": null,
+                "subMenus": [],
+                "grpid": null,
+                "gmenuid": null,
+                "mdelete": "true",
+                "medit": "true",
+                "mquery": "true",
+                "mcreate": "true",
+                "mvisible": "true"
+            }
+        ],
+        "grpid": null,
+        "gmenuid": null,
+        "mdelete": "true",
+        "medit": "true",
+        "mquery": "true",
+        "mcreate": "true",
+        "mvisible": "true"
+    }
+   
+]
+  }
+  

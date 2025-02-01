@@ -1,0 +1,81 @@
+
+<div class="container" [class.rtl]="translate.currentLang === 'ar'">
+<div class="sidebar">
+  <div class="logo_details link-content" style="border-bottom: 1px solid white !important;">
+    <!-- <i class="bx bxl-audible icon"></i> -->
+    <img class="img icon" src="favicon.ico" alt="" height="20" width="20" style="margin: 0px 10px 0px 10px;">
+    <div class="logo_name">{{app}}</div>
+    <i class="bx bx-menu" id="btn"></i>
+  </div>
+  <div *ngFor="let menu of menus">
+    <div *ngIf="menu.subMenus !== null && menu.subMenus?.length >=1;then content else other_content"></div>
+    <ng-template #content >
+  
+  <ul class="nav-list">
+    <li>
+      <a class="link-content" data-bs-toggle="collapse" (click)="toggleCollapse(menu.menuItemDesc)" [attr.href]="'#collapseExample-' + getMenuIdentifier(menu.menuItemDesc)" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <!-- <i class="bx bx-grid-alt" id="btn"></i>  -->
+        <i [attr.class]="'bi bi-'+menu.main_menu_icon_name"></i>
+        <!-- <box-icon [attr.name]="menu.main_menu_icon_name" color="#fff" ></box-icon> -->
+        <span class="link_name dropdown-toggle">{{ menu.menuItemDesc | translate}}</span>
+      </a>
+      <span class="tooltip">{{ menu.menuItemDesc }}</span>
+      
+      <ul class="subnav-list collapse"  *ngFor="let subnav of menu.subMenus" [ngClass]="{'show': activeMenuId === getMenuIdentifier(menu.menuItemDesc)}" >
+        <li  *ngIf="subnav.mvisible == 'true'" [routerLinkActive]="['active']" (click)="send(subnav)">
+          <a class="link-content">
+            <i class=""></i>
+            <span class="link_name">{{ subnav.menuItemDesc | translate}}</span>
+          </a>
+        </li>
+      </ul>
+
+    </li>
+  </ul>
+
+  </ng-template>
+  </div>
+</div>
+
+<ng-template #other_content>
+  <span>other content</span>
+  <ul class="nav-list">
+  <li class="nav-item">
+    <a routerLinkActive="active" [routerLink]="'./'+ menu.main_menu_action_name">
+      <i [attr.class]="menu.main_menu_icon_name"></i>
+      <span class="link_name"> {{ menu.menuItemDesc | translate }}</span>
+    </a>
+    <!-- <span class="tooltip"> {{ menu.menuItemDesc }}</span> -->
+  </li>
+</ul>
+</ng-template>
+</div>
+
+<section class="home-section">
+  <!-- <div class="text" style="background-color: aqua;"></div> -->
+  <nav class="navbar fixed-top " style="background-color: #e3f2fd;">
+    <div class="container-fluid d-flex" [ngClass]="{'justify-content-end': translate.currentLang === 'en', 'justify-content-start': translate.currentLang === 'ar'}" style="height: 66px; padding-right: 40px; padding-left: 90px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+      <!-- <span class="navbar-brand mb-0 h1"></span> -->
+      <!-- <i class="bi bi-house-fill" style="font-size: 30px; color: #000;" href="javascript://" routerLink="/dashboard"></i> -->
+      <div  [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'" >
+        <!-- <label>
+        {{ 'HOME.SELECT' | translate }}
+        <select #langSelect (change)="changeLang(langSelect.value)" >
+          <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+        </select>
+      </label> -->
+      <div [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'">
+        <button type="button" class="btn btn-primary" (click)="toggleLanguage()" #langSelect>
+          {{ translate.currentLang === 'en' ? 'عربي' : 'English' }}
+        </button>
+      </div>
+      </div>
+    </div>
+  </nav>
+  <main class="content-area" style="padding-top: 70px;">
+    <router-outlet></router-outlet>
+  </main>
+</section>
+
+<!-- Scripts -->
+<!-- <script src="script.js"></script> -->
